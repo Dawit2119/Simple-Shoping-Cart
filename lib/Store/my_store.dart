@@ -13,11 +13,11 @@ class MyStore extends ChangeNotifier {
           name: "Special Burger",
           price: 100.0,
           pic: "burger.jpg"),
-      Product(id: 2, qty: 1, name: "Dish", price: 40, pic: "dish.jpg"),
-      Product(id: 3, qty: 3, name: "Jacket", price: 400, pic: 'jacket.jpg'),
-      Product(id: 4, qty: 10, name: "juice", price: 56, pic: 'juice.jpg'),
-      Product(id: 5, qty: 10, name: 'Trouser', price: 500, pic: 'trouser.jpg'),
-      Product(id: 3, qty: 3, name: 'Bicycle', price: 7000, pic: 'bicycle.jpg')
+      Product(id: 1, qty: 1, name: "Dish", price: 40, pic: "dish.jpg"),
+      Product(id: 2, qty: 3, name: "Jacket", price: 400, pic: 'jacket.jpg'),
+      Product(id: 3, qty: 10, name: "juice", price: 56, pic: 'juice.jpg'),
+      Product(id: 4, qty: 10, name: 'Trouser', price: 500, pic: 'trouser.jpg'),
+      Product(id: 5, qty: 3, name: 'Bicycle', price: 7000, pic: 'bicycle.jpg')
     ];
     // notifyListeners();
   }
