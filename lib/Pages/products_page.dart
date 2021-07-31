@@ -48,9 +48,12 @@ class Products extends StatelessWidget {
                   children: [
                     Flexible(
                       child: Container(
-                        child: Image(
-                          image: AssetImage('images/${store.products[i].pic}'),
-                          fit: BoxFit.cover,
+                        child: Hero(
+                          tag: store.products[i].name,
+                          child: Image(
+                            image: AssetImage('images/${store.products[i].pic}'),
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                     ),

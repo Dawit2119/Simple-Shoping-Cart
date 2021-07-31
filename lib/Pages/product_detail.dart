@@ -24,7 +24,7 @@ class ProdcutDetail extends StatelessWidget {
                     store.activeProduct.name,
                     style: Theme.of(context).textTheme.headline4,
                   ),
-                  Image.asset('images/${store.activeProduct.pic}'),
+                  Hero(tag: store.activeProduct.name,child: Image.asset('images/${store.activeProduct.pic}')),
                   Text(
                     'Price: ${store.activeProduct.price}',
                     style: Theme.of(context).textTheme.headline4,
